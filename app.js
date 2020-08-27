@@ -12,7 +12,7 @@
             diceSelected.style.display = 'block';
             diceSelected.src = 'dice-' + dice + '.png';
 
-            if (dice !== 1) {
+            if (dice !== 3) {
                 roundScore += dice;
                 document.querySelector('#current-' + activePlayer).textContent = roundScore;
             }
