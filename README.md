@@ -1,6 +1,6 @@
 # dice-game
 
-MY fisrt ever game created using Javascript.
+My fisrt ever game created using Javascript.
 
 Rules:<br>
    1)the player to get a score of 60 to wins.<br>
