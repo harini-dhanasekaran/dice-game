@@ -29,7 +29,7 @@
             scores[activePlayer] += roundScore;
             document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
-            if (scores[activePlayer] >= 60) {
+            if (scores[activePlayer] >= 50) {
                 document.querySelector('#name-' + activePlayer).textContent = 'winner';
                 gamePlaying = 0;
 
