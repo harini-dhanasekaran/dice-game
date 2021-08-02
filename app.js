@@ -45,7 +45,7 @@
     function nextPlayer(){
 
         document.querySelector('.player-0-panel').classList.toggle('active');
-        document.querySelector('.player-1-panel').classList.toggle('active');
+        document.querySelector('.player-1-panel').classList.toggle('active'); 
         roundScore = 0;
         document.querySelector('#current-' + activePlayer).textContent = roundScore;
         activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
@@ -67,7 +67,7 @@
 
         document.querySelector('.player-0-panel').classList.remove('active');
         document.querySelector('.player-1-panel').classList.remove('active');
-        document.querySelector('.player-0-panel').classList.add('active');
+        document.querySelector('.player-0-panel').classList.add('active');   //class list - collection of class attributes of a element 
     }
 
     document.querySelector('.btn-new').addEventListener('click',newGame);
